@@ -2,7 +2,7 @@
 
 A design studio site where typography becomes the structure and scroll reveals how interface decisions are made.
 
-**[svilenkovicstudio.com](https://svilenkovicstudio.com/)** · [Srpski](README.sr.md)
+**[svilenkovicstudio.com](https://svilenkovicstudio.com/)** · [La Sylphide case study](https://svilenkovicstudio.com/en/work/la-sylphide/) · [Srpski](README.sr.md)
 
 > [!NOTE]
 > This is an independent project by D. Svilenković. The production source stays in a private repository; this public repository documents the work.
@@ -10,7 +10,7 @@ A design studio site where typography becomes the structure and scroll reveals h
 <table>
   <tr><td><b>Type</b></td><td>Design, typography and interaction</td></tr>
   <tr><td><b>Languages</b></td><td>Serbian and English</td></tr>
-  <tr><td><b>Public routes</b></td><td>30 canonical pages</td></tr>
+  <tr><td><b>Public routes</b></td><td>32 canonical pages</td></tr>
   <tr><td><b>Role</b></td><td>Research, design, development, SEO, hosting and maintenance</td></tr>
   <tr><td><b>Stack</b></td><td>Astro, TypeScript, CSS, PHP 8.3, SQLite, nginx</td></tr>
 </table>
@@ -28,7 +28,7 @@ A typographic reactor drives the central scene. Letters stretch into columns, gr
 - Typography and layout treated as the main narrative material
 - Dedicated pages for design, interaction and working method
 - A WebGL scene loaded with performance limits and fallbacks
-- Thirty Serbian and English canonical routes
+- Thirty-two Serbian and English canonical routes
 - Reduced-motion and no-JavaScript paths that keep the argument intact
 
 ## Release checks

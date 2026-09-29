@@ -2,7 +2,7 @@
 
 Dizajn, tipografija i interakcija.
 
-**[svilenkovicstudio.com](https://svilenkovicstudio.com/)** · [English](README.md)
+**[svilenkovicstudio.com](https://svilenkovicstudio.com/)** · [Studija: La Sylphide](https://svilenkovicstudio.com/radovi/la-sylphide/) · [English](README.md)
 
 > [!NOTE]
 > Samostalni projekat D. Svilenkovića. Produkcijski izvor ostaje u privatnom repozitorijumu; ovaj javni repozitorijum dokumentuje izvedeni rad.
@@ -10,7 +10,7 @@ Dizajn, tipografija i interakcija.
 <table>
   <tr><td><b>Vrsta</b></td><td>Dizajn, tipografija i interakcija</td></tr>
   <tr><td><b>Jezici</b></td><td>srpski i engleski</td></tr>
-  <tr><td><b>Javne rute</b></td><td>30 canonical stranica</td></tr>
+  <tr><td><b>Javne rute</b></td><td>32 canonical stranica</td></tr>
   <tr><td><b>Uloga</b></td><td>istraživanje, dizajn, razvoj, SEO, hosting i održavanje</td></tr>
   <tr><td><b>Tehnologije</b></td><td>Astro, TypeScript, CSS, PHP 8.3, SQLite, nginx</td></tr>
 </table>
@@ -28,7 +28,7 @@ Tipografski reaktor pokreće glavnu scenu. Slova se razvijaju u kolone, mreže i
 - Tipografija i raspored kao glavni materijal priče
 - Posebne stranice za dizajn, interakciju i način rada
 - WebGL scena učitana uz granice performansi i rezervna rešenja
-- Trideset srpskih i engleskih canonical ruta
+- Trideset dve srpske i engleske canonical rute
 - Reduced-motion i no-JavaScript putanje koje čuvaju smisao sadržaja
 
 ## Provere izdanja
