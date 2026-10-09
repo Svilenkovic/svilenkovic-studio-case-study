@@ -1,42 +1,58 @@
+<a href="https://svilenkovicstudio.com/"><img src="media/cover.jpg" alt="Svilenković Studio, home page on a laptop and a phone" width="100%"></a>
+
 # Svilenković Studio
 
-A design studio site where typography becomes the structure and scroll reveals how interface decisions are made.
+A design studio site where large letters unfold into the page layout, with a font lab that tests typefaces on Serbian text.
 
-**[svilenkovicstudio.com](https://svilenkovicstudio.com/)** · [La Sylphide case study](https://svilenkovicstudio.com/en/work/la-sylphide/) · [Srpski](README.sr.md)
+**[svilenkovicstudio.com](https://svilenkovicstudio.com/)** · [Case study (in Serbian)](https://svilenkovic.rs/radovi/svilenkovic-studio) · [Srpski](README.sr.md)
 
 > [!NOTE]
-> This is an independent project by D. Svilenković. The production source stays in a private repository; this public repository documents the work.
+> My own project, not client work. The source code is private. This page describes what the site does and how it is built.
 
 <table>
-  <tr><td><b>Type</b></td><td>Design, typography and interaction</td></tr>
-  <tr><td><b>Languages</b></td><td>Serbian and English</td></tr>
-  <tr><td><b>Public routes</b></td><td>32 canonical pages</td></tr>
-  <tr><td><b>Role</b></td><td>Research, design, development, SEO, hosting and maintenance</td></tr>
-  <tr><td><b>Stack</b></td><td>Astro, TypeScript, CSS, PHP 8.3, SQLite, nginx</td></tr>
+  <tr><td><b>Client</b></td><td>Own project</td></tr>
+  <tr><td><b>Industry</b></td><td>Typography, interaction and design systems</td></tr>
+  <tr><td><b>Location</b></td><td>Serbia</td></tr>
+  <tr><td><b>Type</b></td><td>Multi-page website</td></tr>
+  <tr><td><b>My role</b></td><td>Research, design, development, SEO and hosting</td></tr>
+  <tr><td><b>Stack</b></td><td>Astro 7, three.js, GSAP, harfbuzzjs, PHP 8.3, SQLite, nginx</td></tr>
 </table>
 
-## Purpose
+## About the project
 
-This site is about the visible part of web work: hierarchy, type, spacing, rhythm and interaction. The content treats those choices as a system instead of decoration added after development.
+Svilenković Studio is about the visible part of web work: type, rhythm, spacing and motion. The home page starts with large letters that grow into the structure of the page, and the headline stays real text that can be read without a script. Other pages cover fonts for Cyrillic and Latin, Serbian italics, colours, logos and the design process.
 
-## Design direction
-
-A typographic reactor drives the central scene. Letters stretch into columns, grids and interface frames using ultramarine, silver and red, with a lighter mobile version of the same idea.
+The font lab starts with the letters we actually write, č, ć, đ, š and ž, and only then looks at character and rhythm, so a reader can see why a typeface works instead of taking its name on trust. The main scene is built with three.js and tied to scroll, with performance limits and a fallback. On a phone the composition is shorter, and with reduced motion the content sits in its final state.
 
 ## What I built
 
-- Typography and layout treated as the main narrative material
-- Dedicated pages for design, interaction and working method
-- A WebGL scene loaded with performance limits and fallbacks
-- Thirty-two Serbian and English canonical routes
-- Reduced-motion and no-JavaScript paths that keep the argument intact
+- A font lab with checked Google fonts for Serbian Latin with diacritics, Cyrillic and Serbian italics, loaded from the same domain
+- A three.js scene tied to scroll, with performance limits and a fallback
+- Pages on Cyrillic and Latin fonts, Serbian italics, colours, logos and the design process
+- Reduced motion and no-JavaScript paths that keep every text readable
+- Serbian and English versions of every page
 
-## Release checks
+## Results
 
-Every canonical route was checked at 390, 768, 1440 and 1920 px. The release was also tested without JavaScript and with reduced motion. Live checks covered HTTPS, redirects, response headers, structured data, sitemap files, protected paths and invalid contact requests without sending test mail.
+| | Performance | Accessibility | Best practices | SEO |
+| :-- | :-: | :-: | :-: | :-: |
+| Mobile | 100 | 100 | 100 | 100 |
+| Desktop | 100 | 100 | 100 | 100 |
 
-These are engineering checks, not claims about search ranking or field performance.
+PageSpeed Insights, lab test of the live site, October 2026. Security headers: 6 of 6. axe accessibility check: no violations. Structured data: `Organization`, `Person`.
+
+## Screenshots
+
+<table>
+  <tr>
+    <td width="68%" valign="top"><img src="media/desktop.webp" alt="Svilenković Studio, home page on a 1440 px screen"></td>
+    <td width="32%" valign="top"><img src="media/mobile.webp" alt="Svilenković Studio, home page on a phone"></td>
+  </tr>
+</table>
+
+<img src="media/inner-1.webp" alt="Font lab on the live site">
+<sub>Font lab on the live site</sub>
 
 ---
 
-<sub>Designed and built by [D. Svilenković](https://svilenkovic.com).</sub>
+<sub>Built by [D. Svilenković](https://svilenkovic.com).</sub>
